@@ -1,7 +1,7 @@
 # AdbController
 
 
-**AdbController** is a java library for android action tests. It provides a socket client for sending a command to [ADB][1] Server. It was test on Windows7 and GalaxyS6.
+**AdbController** is a java library for android action tests. It provides a socket client for sending a command to [ADB][1] Server. It was test on Windows7-x64 and GalaxyS6.
 
 - It was referenced by [AndroidViewClient][2].
 - Automates driving Android applications.
