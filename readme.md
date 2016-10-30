@@ -16,9 +16,10 @@
 
 
 ## References
-[adb - Google Git](https://android.googlesource.com/platform/system/core/+/master/adb)
-[Installing OpenCV for Java](http://opencv-java-tutorials.readthedocs.io/en/latest/01-installing-opencv-for-java.html) 
-[Template Matching](http://docs.opencv.org/2.4/doc/tutorials/imgproc/histograms/template_matching/template_matching.html)
+1. [adb - Google Git](https://android.googlesource.com/platform/system/core/+/master/adb)
+[Installing OpenCV for Java]
+2. (http://opencv-java-tutorials.readthedocs.io/en/latest/01-installing-opencv-for-java.html) 
+3. [Template Matching](http://docs.opencv.org/2.4/doc/tutorials/imgproc/histograms/template_matching/template_matching.html)
 
 
 ## ETC
