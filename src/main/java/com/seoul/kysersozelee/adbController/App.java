@@ -17,19 +17,8 @@ public class App
 	
     public static void main( String[] args ) throws IOException, InterruptedException, ExecutionException
     {
-    	AdbClientComponent adbClientComponent = new AdbClientComponent("HC3B2MP00398");
+    	AdbClientComponent adbClientComponent = new AdbClientComponent("1215fc23340f0803");
     	
     	Set<String> connectedDevices = adbClientComponent.getDevices();
-    	
-    	
-    	AdbServerComponent adbServerCommunicator = new AdbServerComponent("HC3B2MP00398");
-
-    	AdbResult adbResult = adbServerCommunicator.sendHostMessage("host:devices-l");
-    	System.out.println(adbResult);
-    	adbResult = adbServerCommunicator.sendHostMessage("host:devices-l");
-    	System.out.println(adbResult);
-    	adbResult = adbServerCommunicator.sendDeviceMessage("shell:getprop ro.build.version.sdk");
-    	System.out.println(adbResult);
-    	
     }
 }

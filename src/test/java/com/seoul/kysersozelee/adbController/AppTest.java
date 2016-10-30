@@ -26,14 +26,14 @@ public class AppTest extends TestCase {
 	}
 
 	public void testGetAdbDevices() throws IOException, InterruptedException, ExecutionException {
-		adbClientComponent = new AdbClientComponent("HC3B2MP00398");
+		adbClientComponent = new AdbClientComponent("1215fc23340f0803");
 		Set<String> connectedDevices = adbClientComponent.getDevices();
 		assertTrue(connectedDevices.size() > 0);
 
 	}
 
 	public void testScreenCpature() throws IOException, InterruptedException, ExecutionException {
-		adbClientComponent = new AdbClientComponent("HC3B2MP00398");
+		adbClientComponent = new AdbClientComponent("1215fc23340f0803");
 		adbClientComponent.captureScreenshot(serialNumber);
 	}
 }

@@ -3,7 +3,7 @@
 
 **AdbController** is a java library for android action tests. It provides a socket client for sending a command to [ADB][1] Server. It was test on Windows7 and GalaxyS6.
 
-- It was referenced [AndroidViewClient][2].
+- It was referenced by [AndroidViewClient][2].
 - Automates driving Android applications.
 - Controls Android Device(tap, swipe, text..)
 - It has a image comparing action.  
@@ -12,7 +12,13 @@
 1. Java
 2. Maven
 3. Android SDK
-4. OpenCV 3.1.0-win-x64 [Installing OpenCV for Java](http://opencv-java-tutorials.readthedocs.io/en/latest/01-installing-opencv-for-java.html) 
+4. OpenCV 3.1.0
+
+
+## References
+[adb - Google Git](https://android.googlesource.com/platform/system/core/+/master/adb)
+[Installing OpenCV for Java](http://opencv-java-tutorials.readthedocs.io/en/latest/01-installing-opencv-for-java.html) 
+[Template Matching](http://docs.opencv.org/2.4/doc/tutorials/imgproc/histograms/template_matching/template_matching.html)
 
 
 ## ETC
